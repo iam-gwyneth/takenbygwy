@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>takenbygwy</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="logo">takenbygwy</div>
+        <nav class="menu">
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h1>Through my lens</h1>
+        <p>
+            Takenbygwy showcases a broad spectrum of photographic artistry, capturing the beauty of the world 
+            through various perspectives, moods, and environments.
+        </p>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <h2>My Portfolio</h2>
+
+        <div class="gallery">
+
+            <!-- Example Project Thumbnail -->
+            <a href="project1.html" class="project-card">
+                <img src="images/photo1.jpg" alt="Project 1">
+            </a>
+
+            <a href="project2.html" class="project-card">
+                <img src="images/photo2.jpg" alt="Project 2">
+            </a>
+
+            <a href="project3.html" class="project-card">
+                <img src="images/photo3.jpg" alt="Project 3">
+            </a>
+
+            <a href="project4.html" class="project-card">
+                <img src="images/photo4.jpg" alt="Project 4">
+            </a>
+
+            <a href="project5.html" class="project-card">
+                <img src="images/photo5.jpg" alt="Project 5">
+            </a>
+
+            <a href="project6.html" class="project-card">
+                <img src="images/photo6.jpg" alt="Project 6">
+            </a>
+
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <footer id="contact" class="contact">
+        <div class="footer-left">
+            <h3>takenbygwy</h3>
+            <p>© 2025 by takenbygwy. All rights reserved.</p>
+        </div>
+
+        <div class="footer-right">
+            <p>email: info@mysite.com</p>
+            <p>location: London, UK</p>
+            <p>Instagram / TikTok / etc.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
